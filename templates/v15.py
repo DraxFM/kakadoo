@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # variant 15
 
 import os

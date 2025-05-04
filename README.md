@@ -13,8 +13,7 @@ Proof of Concept Python3 non-persistent dropper.
 Only compatible with Windows systems. Tested on Windows 11.
 
 ### temporary message
-currently, the fact that the exe is compiled with no icon, leads to multiple AVs flagging it down as **ransom.qilra**. using a custom icon lowers the detection from 23 to 11. i will add this feature asap  
-adding to that, this only works on users that are in the "Administrators" group. this will also be addressed soon.
+currently, the dropper only works on users that are in the "Administrators" group. this will be addressed soon.
 
 ## :large_blue_circle: - Content
 - [:100: - Features](#features)
@@ -25,7 +24,6 @@ adding to that, this only works on users that are in the "Administrators" group.
 - [Extended Usage](#extendedusage)
 - [To Do](#todo)
 - [:wave: - Authors](#authors)
-- [:memo: - Changelog](#changelog)
 - [:exclamation: - License](#license)
 
 ## <a id="features"></a> :100: - Features
@@ -63,9 +61,9 @@ adding to that, this only works on users that are in the "Administrators" group.
 1. Get an [executable Payload](#help)
 2. Run kakadoo
 3. Enter in "1" and press Enter.
-4. Paste the path of your payload into the entry field.
-5. Let kakadoo do the rest.
-6. See [extended Usage](#extendedusage) for more help.
+4. Configure your kakadoo Dropper.
+5. See [extended Usage](#extendedusage) for more help.
+6. Let kakadoo do the rest.
 7. Your file is ready for usage!
 
 ---
@@ -93,26 +91,28 @@ This can obviously be a bug, if there is an error shown, please contact me so I 
 This will describe every possible config further.
 
 * **Wrap Payload using kakadoo**: Initiates kakadoo main program
-  * **Payload File**: Expects an [executable Payload](#help); accepts an absolute path or the file Name + extension (if file is in same directory as kakadoo.py)
+  * **Payload File**: Expects an [executable Payload](#help); accepts an absolute path or the file name + extension (if file is in same directory as kakadoo.py)
+  * **Dropper File Name**: Expects a name without extension; the final file will be called after the given string
+  * **Add icon to file**: Accepts "yes" or "y" as positive, anything else as negative; will continue to sub-option if positive
+    * **Icon File**: Expects a **.ico** file; accepts an absolute path, the file name or the file name + extension (if file is in the same directory as kakadoo.py)
 * **Contact**: Lists contacts
 * **Help**: Redirects to Github Help subpage
 
 ## <a id="todo"></a>To Do
 
 ```
-- Add custom icon config !!!
-- Support non-admin executions !!!
-- Add result file name config
-- Expand Anti-VM
-- Expand Anti Diagnostic Tool System
-- Add generated/custom password config
-- Add version checking
-- Add full cleanup as config
-- Add self destruction as config
-- Add elevation to critical process as config
-- Add independent Payload launch
-- Check if SubmitSamplesConsent is 2 and don't assume (in builder)
-- Add custom Payload extraction path
+- Support non-admin executions !!! (main)
+- Support absolute paths with "" (builder)
+- Expand Anti-VM (main)
+- Expand Anti Diagnostic Tool System (main)
+- Add generated/custom password config (main/builder)
+- Add version checking (builder)
+- Add full cleanup as config (main/builder)
+- Add self destruction as config (main/builder)
+- Add elevation to critical process as config (main/builder)
+- Add independent Payload launch as config (main/builder)
+- Check if SubmitSamplesConsent is 2 and don't assume (builder)
+- Add custom Payload extraction path (main/builder)
 ```
 
 ## <a id="authors"></a> :wave: - Authors
@@ -124,12 +124,6 @@ This will describe every possible config further.
 **Discord: [draxfm](https://discord.com/users/654343206275907585)**
 
 Need help? Join the [**Discord**](https://discord.gg/sEXECdC3Et)!
-
-## <a id="changelog"></a> :memo: - Changelog
-
-```
-05/04/2025 v0.0.1: Released kakadoo BETA
-```
 
 ## <a id="license"></a> :exclamation: - License
 

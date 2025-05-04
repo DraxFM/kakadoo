@@ -36,7 +36,6 @@ adding to that, this only works on users that are in the "Administrators" group.
 - Anti-Analysis tools (BETA) :round_pushpin:
 - Encrypted Payload :syringe:
 - No popups during runtime!
-- See [All Features](#allfeatures) for more
 - More to be added! :heavy_plus_sign:
 
 ---

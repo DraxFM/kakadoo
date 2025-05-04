@@ -90,13 +90,13 @@ This can obviously be a bug, if there is an error shown, please contact me so I 
 - Expand Anti-VM
 - Expand Anti Diagnostic Tool System
 - Add generated/custom password config
+- Add version checking
 - Add full cleanup as config
 - Add self destruction as config
 - Add custom icon config
 - Add elevation to critical process as config
 - Add independent Payload launch
 - Add custom Payload extraction path
-- Add
 ```
 
 ## <a id="authors"></a> :wave: - Authors

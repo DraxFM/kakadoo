@@ -13,7 +13,8 @@ Proof of Concept Python3 non-persistent dropper.
 Only compatible with Windows systems. Tested on Windows 11.
 
 ### temporary message
-currently, the fact that the exe is compiled with no icon, multiple AVs flag **ransom.qilra**. using a custom icon lowers the detection from 23 to 11. i will add this feature asap
+currently, the fact that the exe is compiled with no icon, leads to multiple AVs flagging it down as **ransom.qilra**. using a custom icon lowers the detection from 23 to 11. i will add this feature asap  
+adding to that, this only works on users that are in the "Administrators" group. this will also be addressed soon.
 
 ## :large_blue_circle: - Content
 - [:100: - Features](#features)
@@ -101,6 +102,7 @@ This will describe every possible config further.
 
 ```
 - Add custom icon config !!!
+- Support non-admin executions !!!
 - Add result file name config
 - Expand Anti-VM
 - Expand Anti Diagnostic Tool System

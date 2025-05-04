@@ -110,6 +110,7 @@ This will describe every possible config further.
 - Add self destruction as config
 - Add elevation to critical process as config
 - Add independent Payload launch
+- Check if SubmitSamplesConsent is 2 and don't assume (in builder)
 - Add custom Payload extraction path
 ```
 

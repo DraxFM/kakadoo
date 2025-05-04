@@ -12,12 +12,16 @@
 Proof of Concept Python3 non-persistent dropper.  
 Only compatible with Windows systems. Tested on Windows 11.
 
+### temporary message
+currently, the fact that the exe is compiled with no icon, multiple AVs flag **ransom.qilra**. using a custom icon lowers the detection from 23 to 11. i will add this feature asap
+
 ## :large_blue_circle: - Content
 - [:100: - Features](#features)
 - [:white_check_mark: - Requirements](#requirements)
 - [:hammer: - Installing](#installing)
 - [:toolbox:  - Usage](#usage)
 - [:question:  - Help](#help)
+- [Extended Usage](#extendedusage)
 - [To Do](#todo)
 - [:wave: - Authors](#authors)
 - [:memo: - Changelog](#changelog)
@@ -84,16 +88,26 @@ An executable Payload is a file that can be interpreted by Windows to run code. 
 
 This can obviously be a bug, if there is an error shown, please contact me so I can improve my software. Otherwise, this won't work because of your antivirus. As my files are not fully undetected, your AV might think that you installed a virus (even though you created it) and break it/parts of it or even delete it. To fix this, simply turn off your Antivirus and then create your file or add the file as extension so it doesn't get locked.  
 
+## <a id="extendedusage"></a>Extended Usage
+
+This will describe every possible config further.
+
+* **Wrap Payload using kakadoo**: Initiates kakadoo main program
+  * **Payload File**: Expects an [executable Payload](#help); accepts an absolute path or the file Name + extension (if file is in same directory as kakadoo.py)
+* **Contact**: Lists contacts
+* **Help**: Redirects to Github Help subpage
+
 ## <a id="todo"></a>To Do
 
 ```
+- Add custom icon config !!!
+- Add result file name config
 - Expand Anti-VM
 - Expand Anti Diagnostic Tool System
 - Add generated/custom password config
 - Add version checking
 - Add full cleanup as config
 - Add self destruction as config
-- Add custom icon config
 - Add elevation to critical process as config
 - Add independent Payload launch
 - Add custom Payload extraction path

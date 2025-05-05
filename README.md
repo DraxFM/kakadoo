@@ -9,11 +9,12 @@
 
 ## Overview
 
-Proof of Concept Python3 non-persistent dropper.  
+Proof of Concept Python3 (non-persistent) dropper.  
 Only compatible with Windows systems. Tested on Windows 11.
 
 ### temporary message
 currently, the dropper only works on users that are in the "Administrators" group. this will be addressed soon.
+adding to that, the dropper is not fully non-persistent as of right now, but i will push out an update for this soon too.
 
 ## :large_blue_circle: - Content
 - [:100: - Features](#features)

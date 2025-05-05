@@ -31,6 +31,7 @@ adding to that, the dropper is not fully non-persistent as of right now, but i w
 
 - Builder :sparkles:
 - Privilege Escalation :key:
+- Infiltrates Windows Defender :syringe:
 - Anti-VM (BETA) :round_pushpin:
 - Anti-Analysis tools (BETA) :round_pushpin:
 - Encrypted Payload :syringe:
@@ -136,6 +137,7 @@ This will describe every possible config further.
 - Add independent Payload launch as config (main/builder)
 - Check if SubmitSamplesConsent is 2 and don't assume (builder)
 - Add custom Payload extraction path (main/builder)
+- Infiltrate other AVs, not only windefender (main)
 ```
 
 ## <a id="authors"></a> :wave: - Authors

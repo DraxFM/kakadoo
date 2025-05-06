@@ -126,6 +126,7 @@ This will describe every possible config further.
 ```
 - Support non-admin executions !!! (main)
 - Support absolute paths with "" (builder)
+- Make various features in main configurable in builder (main/builder)
 - Expand Anti-VM (main)
 - Expand Anti Diagnostic Tool System (main)
 - Obfuscation? (main)

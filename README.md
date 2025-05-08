@@ -118,6 +118,7 @@ This will describe every possible config further.
   * **Dropper File Name**: Expects a name without extension; the final file will be called after the given string
   * **Add icon to file**: Accepts "yes" or "y" as positive, anything else as negative; will continue to sub-option if positive
     * **Icon File**: Expects a **.ico** file; accepts an absolute path, the file name or the file name + .ico ectension (if file is in the same directory as kakadoo.py); also accepts "NONE" for no icon at all (NOT RECOMMENDED)
+  * **Obfuscate file**: Accepts "yes or "y" as positive, anything else as negative; will obfuscate file using PyArmor if positive
 * **Contact**: Lists contacts
 * **Help**: Redirects to Github Help subpage
 
@@ -128,7 +129,6 @@ This will describe every possible config further.
 - Make various features in main configurable in builder (main/builder)
 - Expand Anti-VM (main)
 - Expand Anti Diagnostic Tool System (main)
-- Obfuscation? (main)
 - Add generated/custom password config (main/builder)
 - Add full cleanup as config (main/builder)
 - Add self destruction as config (main/builder)

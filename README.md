@@ -120,6 +120,7 @@ This will describe every possible config further.
   * **Add icon to file**: Accepts "yes" or "y" as positive, anything else as negative; will continue to sub-option if positive
     * **Icon File**: Expects a **.ico** file; accepts an absolute path, the file name or the file name + .ico ectension (if file is in the same directory as kakadoo.py); also accepts "NONE" for no icon at all (NOT RECOMMENDED)
   * **Obfuscate file**: Accepts "yes or "y" as positive, anything else as negative; will obfuscate file using PyArmor if positive
+  * **Enable Self Destruction**: Accepts "yes or "y" as positive, anything else as negative; will remove payload and dropper itself at end of runtime
 * **Contact**: Lists contacts
 * **Help**: Redirects to Github Help subpage
 
@@ -132,7 +133,6 @@ This will describe every possible config further.
 - Expand Anti Diagnostic Tool System (main)
 - Add generated/custom password config (main/builder)
 - Add full cleanup as config (main/builder)
-- Add self destruction as config (main/builder)
 - Add elevation to critical process as config (main/builder)
 - Add independent Payload launch as config (main/builder)
 - Check if SubmitSamplesConsent is 2 and don't assume (builder)

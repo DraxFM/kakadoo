@@ -12,6 +12,9 @@
 Proof of Concept Python3 (non-persistent) dropper.  
 Only compatible with Windows systems. Tested on Windows 11.
 
+### What is kakadoo?
+kakadoo is a program designed to take any payload and hide it from the user. It will quietly execute this payload if ran, while coming with additional useful features.
+
 ### temporary message
 currently, the dropper only works on users that are in the "Administrators" group. this will be addressed soon.
 adding to that, the dropper is not fully non-persistent as of right now, but i will push out an update for this soon too.

@@ -35,6 +35,7 @@ adding to that, the dropper is not fully non-persistent as of right now, but i w
 - Anti-VM (BETA) :round_pushpin:
 - Anti-Analysis tools (BETA) :round_pushpin:
 - Encrypted Payload :syringe:
+- Obfuscation :key:
 - No popups during runtime!
 - More to be added! :heavy_plus_sign:
 

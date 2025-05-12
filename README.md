@@ -134,7 +134,6 @@ This will describe every possible config further.
 - Make various features in main configurable in builder (main/builder)
 - Expand Anti-VM (main)
 - Expand Anti Diagnostic Tool System (main)
-- Add generated/custom password config (main/builder)
 - Add full cleanup as config (main/builder)
 - Add elevation to critical process as config (main/builder)
 - Add independent Payload launch as config (main/builder)

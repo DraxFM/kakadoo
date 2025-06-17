@@ -83,32 +83,37 @@ adding to that, the dropper is not fully non-persistent as of right now, but i w
 </details>
 
 <details>
-<summary>2. ERROR: File not found!</summary>
+<summary>2. How can I trust this?</summary>
+ You can easily view the source code of the project by opening the .py files in an IDE. I never had any malicious code in any of my projects and it will be like this forever.
+</details>
+
+<details>
+<summary>3. ERROR: File not found!</summary>
  This error indicates that files that kakadoo requires, are missing. Reinstall the program and make sure not to tinker with any names or directories of the different kakadoo-installed files.
 </details>
 
 <details>
-<summary>3. ERROR: File altering detected!</summary>
+<summary>4. ERROR: File altering detected!</summary>
  This error usually indicates that the user has tampered with kakadoo. Tampering with the file in small ways introduces bugs, which is why this is detected and blocked.
 </details>
 
 <details>
-<summary>4. UNKNOWN ERROR</summary>
+<summary>5. UNKNOWN ERROR</summary>
  As the name suggests, this is an unexpected error that should not occur. Report any unknown errors to me. To establish contact, join the Discord Server, which can be found in the Authors Section.
 </details>
 
 <details>
-<summary>5. What is an executable Payload?</summary>
- An executable Payload is a file that can be interpreted by Windows to run code. The most common example are files with the **.exe** extension, but there are also other extensions that are executable.
+<summary>6. What is an executable Payload?</summary>
+ An executable Payload is a file that can be interpreted by Windows to run code. The most common example are files with the .exe extension, but there are also other extensions that are executable.
 </details>
 
 <details>
-<summary>6. Why is there a default icon?</summary>
+<summary>7. Why is there a default icon?</summary>
  Using no icon at all, will lead to the resulting file being wrongfully detected as ransomware and raise detection rate by over 20%. If you insist on using no icon at all, specify that you want to add an icon in the Builder and enter in "NONE" (case sensitive!) as the icon path. This is not recommended!
 </details>
 
 <details>
-<summary>7. File is not there or not working properly when tested?</summary>
+<summary>8. File is not there or not working properly when tested?</summary>
  This can obviously be a bug, if there is an error shown, please contact me so I can improve my software. Otherwise, this won't work because of your antivirus. As my files are not fully undetected, your AV might think that you installed a virus (even though you created 
  it) and break it/parts of it or even delete it. To fix this, simply turn off your Antivirus and then create your file or add the file as extension so it doesn't get locked.
 </details>

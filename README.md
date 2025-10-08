@@ -134,18 +134,7 @@ This will describe every possible config further.
 
 ## <a id="todo"></a>To Do
 
-```
-- Support non-admin executions !!! (main)
-- Make various features in main configurable in builder (main/builder)
-- Expand Anti-VM (main)
-- Expand Anti Diagnostic Tool System (main)
-- Add full cleanup as config (main/builder)
-- Add elevation to critical process as config (main/builder)
-- Add independent Payload launch as config (main/builder)
-- Check if SubmitSamplesConsent is 2 and don't assume (builder)
-- Add custom Payload extraction path (main/builder)
-- Infiltrate other AVs, not only windefender (main)
-```
+The To Do List has been moved to the [**Discord**](https://discord.gg/sEXECdC3Et).
 
 ## <a id="authors"></a> :wave: - Authors
 

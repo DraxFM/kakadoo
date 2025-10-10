@@ -77,7 +77,7 @@ currently, the dropper is not fully non-persistent as of right now, but i will p
 
 <details>
 <summary>1. Python allegedly "not found", Problems with PATH.</summary>
- A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. Upon installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is **NOT** ticked by default. If you already have 
+ A common problem lots of users have with this program is not caused by me or my program, it's caused by Python. Upon installing Python you have to select the option "Add python.exe to PATH". Unfortunately this box is NOT ticked by default. If you already have 
  Python installed, there's still a way to avoid a reinstallation. You can look up a tutorial on how to manually extend PATH to include Python.
 </details>
 
@@ -127,7 +127,8 @@ This will describe every possible config further.
   * **Add icon to file**: Accepts "yes" or "y" as positive, anything else as negative; will continue to sub-option if positive
     * **Icon File**: Expects a **.ico** file; accepts an absolute path, the file name or the file name + .ico ectension (if file is in the same directory as kakadoo.py); also accepts "NONE" for no icon at all (NOT RECOMMENDED)
   * **Obfuscate file**: Accepts "yes or "y" as positive, anything else as negative; will obfuscate file using PyArmor if positive
-  * **Enable Self Destruction**: Accepts "yes or "y" as positive, anything else as negative; will remove payload and dropper itself at end of runtime
+  * **Enable Self Destruction**: Accepts "yes" or "y" as positive, anything else as negative; will remove payload and dropper itself at end of runtime
+  * **Enable elevation to Critical Process**: Accepts "yes" or "y" as positive, anything else as negative; will elevate dropper process to critical process when ran (this means a BSOD will be caused if the program is killed before it is done running)
 * **Contact**: Lists contacts
 * **Help**: Redirects to Github Help subpage
 
